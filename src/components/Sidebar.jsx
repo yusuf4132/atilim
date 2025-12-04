@@ -148,11 +148,6 @@ export default function Sidebar({ searchTerm, setSearchTerm, handleSearch, showS
                             />
                         </Search>
                     )}
-                    {showSearch && (
-                        <IconButton color="inherit" onClick={handleSearch}>
-                            <SearchIcon />
-                        </IconButton>
-                    )}
                     <IconButton color="inherit" onClick={() => navigate('/iletisim')}>
                         <ContactMailIcon />
                     </IconButton>

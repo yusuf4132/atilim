@@ -58,9 +58,7 @@ export default function AdminGramPage() {
     const handleUpdate = async () => {
         const { error } = await supabase
             .from("ayar_fiyatlari")
-            .update({
-                gram_fiyat: gramFiyat
-            })
+            .update({ gram_fiyat: Number(gramFiyat) })
             .eq("ayar", currentRow.ayar);
 
         if (!error) {

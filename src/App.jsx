@@ -130,6 +130,11 @@ function App() {
     if (sortType === "price-desc") {
       list.sort((a, b) => Number(b.price) - Number(a.price));
     }
+    if (searchTerm.trim() !== "") {
+      list = list.filter(item =>
+        item.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
 
     return list;
   };
@@ -141,10 +146,10 @@ function App() {
   };
 
   const handleSearch = () => {
-    const filtered = products.filter(product =>
-      product.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredProducts(filtered);
+    //const filtered = products.filter(product =>
+    //  product.title.toLowerCase().includes(searchTerm.toLowerCase())
+    //);
+    //setFilteredProducts(filtered);
   };
 
   return (
