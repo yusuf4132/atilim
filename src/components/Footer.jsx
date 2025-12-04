@@ -82,25 +82,11 @@ const Footer = () => {
           {/* Sosyal Medya İkonları */}
           <Box sx={{ fontSize: '21px', mb: 0 }}>
             <IconButton
-              href="https://facebook.com"
-              target="_blank"
-              sx={{ color: "#FFFFFF", "&:hover": { color: "#1877F2" } }}
-            >
-              <FacebookIcon />
-            </IconButton>
-            <IconButton
               href="https://www.instagram.com/atilimsarrafiye/"
               target="_blank"
               sx={{ color: "#FFFFFF", "&:hover": { color: "#E1306C" } }}
             >
               <InstagramIcon />
-            </IconButton>
-            <IconButton
-              href="https://youtube.com"
-              target="_blank"
-              sx={{ color: "#FFFFFF", "&:hover": { color: "#FF0000" } }}
-            >
-              <YouTubeIcon />
             </IconButton>
           </Box>
         </Box>
