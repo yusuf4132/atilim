@@ -19,7 +19,7 @@ Atılım projesi, ürünlerin sergilendiği bir **ana sayfa** ve tüm içerikler
 - Yönetici tarafında ise kategori, ürün, katalog ve afiş yönetimi yapılır.
 - Ayrıca sistem genelinde fiyatlandırmayı etkileyen **gram fiyatı** ve **banka komisyon oranları** dinamik olarak güncellenebilir.
 
-Bu yapı sayesinde site içerikleri ve fiyatlandırmalar kod değişikliğine gerek kalmadan yönetilebilir.
+Bu yapı sayesinde site içeriklerı ve fiyatlandırmalar kod değişikliğine gerek kalmadan yönetilebilir.
 
 ---
 
